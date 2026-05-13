@@ -48,3 +48,25 @@ El entrenamiento se realizó utilizando una base de datos unificada de 180 muest
 ## 7. Consideraciones Éticas y de Seguridad
 * **Privacidad:** El dataset no contiene datos de identificación personal.
 * **Seguridad:** El modelo no toma decisiones críticas que afecten la salud humana; su uso es estrictamente académico y de monitoreo técnico.
+
+## 8. Reproducibilidad
+
+El proyecto fue desarrollado y probado en el entorno de **Google Colab**, asegurando un entorno de ejecución estandarizado.
+
+Para reproducir el flujo completo del experimento, se deben ejecutar los cuadernos (notebooks) en el siguiente orden jerárquico:
+
+```text
+1. notebooks/Procesamiento.ipynb            # Realización de 1´s y 0´s en las imágenes.
+2. notebooks/Modelos_experimento.ipynb      # Entrenamiento y comparativa de los 4 algoritmos.
+3. notebooks/exportar_modelo.ipynb          # Generación de archivos .joblib finales.
+```
+## 9. Mejor modelo
+
+El modelo con mejor desempeño (KNN) ha sido exportado para su uso inmediato en la carpeta de modelos:
+
+```text
+models/C32009_Juan_Chacon.joblib
+```
+## 10. Hardware
+
+El hardware como tal no es específico ya que los scripts fueron ejecutados en Google Colab, usando el entorno estandarizado.

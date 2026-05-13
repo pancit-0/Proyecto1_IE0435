@@ -15,11 +15,14 @@ Este Model Card proporciona información técnica detallada sobre el modelo de a
 
 ## 3. Modelos usados
 
-Algoritmo	Hiperparámetros Clave	Exactitud (Accuracy)	Estado
-K-Nearest Neighbors (KNN)	n_neighbors=3, metric='euclidean'	0.7222 (72.2%)	Ganador
-Naive Bayes	var_smoothing=1e-9 (Gaussian)	0.6944 (69.4%)	Evaluado
-Random Forest	n_estimators=100, max_depth=None	0.6667 (66.7%)	Evaluado
-SVM (Lineal)	kernel='linear', C=1.0	0.5556 (55.5%)	Evaluado
+A continuación se detalla la comparativa técnica entre los algoritmos evaluados durante la fase de experimentación:
+
+| Algoritmo | Hiperparámetros Clave | Exactitud (Accuracy) | Estado |
+| :--- | :--- | :--- | :--- |
+| **K-Nearest Neighbors (KNN)** | `n_neighbors=3`, `metric='euclidean'` | **0.7222 (72.2%)** | **Ganador** |
+| Naive Bayes | `var_smoothing=1e-9` (Gaussian) | 0.6944 (69.4%) | Evaluado |
+| Random Forest | `n_estimators=100`, `max_depth=None` | 0.6667 (66.7%) | Evaluado |
+| SVM (Lineal) | `kernel='linear'`, `C=1.0` | 0.5556 (55.5%) | Evaluado |
 
 ## 4. Métricas
 El modelo fue evaluado mediante la técnica de validación *Hold-out* (80/20).

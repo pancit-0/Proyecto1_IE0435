@@ -36,19 +36,18 @@ Proyecto1_IE0435/
 │           └── dataset_total.csv 
 │
 ├── models/
-│   ├── modelo_knn_80.joblib          # Mejor modelo exportado
-│   └── escalador_80.joblib           # Escalador de datos (StandardScaler)
-│
+│   └── C32009_Juan_Chacon.joblib 
+│   
 ├── notebooks/
-│   ├── Procesamiento.ipynb           # Unificación y limpieza
-│   ├── Modelos_experimento.ipynb     # Entrenamiento y comparativa
-│   └── exportar_modelo.ipynb         # Generación de archivos finales
+│   ├── Procesamiento.ipynb           
+│   ├── Modelos_experimento.ipynb     
+│   └── exportar_modelo.ipynb         
 │
-├── DATASET.md                        # Documentación de los datos
-├── MODEL_CARD.md                     # Ficha técnica del modelo
-├── README.md                         # Guía general del proyecto
-├── requirements.txt                  # Librerías necesarias
-└── LICENSE                           # Licencia MIT
+├── DATASET.md                        
+├── MODEL_CARD.md                     
+├── README.md                         
+├── requirements.txt                  
+└── LICENSE                           
 ```
 
 ## Modelos Evaluados

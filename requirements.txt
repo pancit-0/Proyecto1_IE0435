@@ -1,1 +1,9 @@
+# Librerías base para procesamiento de datos
+pandas
+numpy
 
+# Machine Learning y preprocesamiento
+scikit-learn
+
+# Serialización y exportación de modelos
+joblib
